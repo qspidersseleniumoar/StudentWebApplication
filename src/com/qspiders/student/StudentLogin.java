@@ -17,7 +17,7 @@ import com.mysql.jdbc.Driver;
 public class StudentLogin  extends HttpServlet{
 	
 	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
  String htmlResponse=null;
  String userName = req.getParameter("username");
